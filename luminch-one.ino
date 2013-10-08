@@ -1,4 +1,4 @@
-//  Luminch One - Copyright 2012 by Francisco Castro <http://fran.cc>
+﻿//  Luminch One - Copyright 2012 by Francisco Castro <http://fran.cc>
 //
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -13,8 +13,8 @@
 //  You should have received a copy of the GNU General Public License
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-#define LED_PIN 3
-#define SENSOR_PIN A0
+#define LED_PIN 1
+#define SENSOR_PIN A2
 
 #define SENSE_THRESHOLD 150
 #define TRACK_THRESHOLD 230
@@ -106,4 +106,3 @@ void loop()  {
     delay((0xFF - abs(target_bright - pwm_output)) >> 5);
   }
 }
-
