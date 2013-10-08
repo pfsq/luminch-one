@@ -9,4 +9,6 @@ brightness of the LED lamp.
 
 Copyright 2012 by [Francisco Castro](http://fran.cc)
 
+EAGLE files, copyleft (ɔ) 2013 by [Pablo Fernández](http://theansweris27.wordpress.com)
+
 [More info...](http://fran.cc/post/15139791161/luminch-one)
